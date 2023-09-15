@@ -5,9 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh ...
+                sh '''
                 ls -la
-                ...
+                '''
             }
         }
         stage('Test') {
